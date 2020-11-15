@@ -1,0 +1,134 @@
+.App {
+	padding-top: 4rem;
+	min-height: 100vh;
+}
+.sticky-offset {
+	top: 56px;
+}
+
+.search-bar {
+	background-color: white;
+	height: 3.5em;
+	margin-bottom: 1em;
+}
+.no-overflow {
+	overflow-x: hidden !important;
+}
+.navbar {
+	background-color: #ef5350 !important;
+}
+
+.bg-custom {
+	background-color: #f0f0f0 !important;
+}
+
+.logo {
+	max-width: 2.5%;
+	height: auto;
+}
+
+.card-title {
+	font-weight: bold !important;
+}
+
+.card-text {
+	font-size: small;
+	font-style: italic !important;
+}
+
+.card {
+	transition: 0.3s;
+}
+
+.card:hover {
+	color: #ef5350;
+}
+
+.force-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.loading-center {
+	position: fixed;
+	z-index: 999;
+	height: 2em;
+	/*width: 2em;*/
+	overflow: show;
+	margin: auto;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.no-breaks {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.type-normal {
+	background-color: #a8a77a !important;
+}
+.type-fire {
+	background-color: #ee8130 !important;
+}
+.type-water {
+	background-color: #6390f0 !important;
+}
+.type-electric {
+	background-color: #f7d02c !important;
+}
+.type-grass {
+	background-color: #7ac74c !important;
+}
+.type-ice {
+	background-color: #96d9d6 !important;
+}
+.type-fighting {
+	background-color: #c22e28 !important;
+}
+.type-poison {
+	background-color: #a33ea1 !important;
+}
+.type-ground {
+	background-color: #e2bf65 !important;
+}
+.type-flying {
+	background-color: #a98ff3 !important;
+}
+.type-psychic {
+	background-color: #f95587 !important;
+}
+.type-bug {
+	background-color: #a6b91a !important;
+}
+.type-rock {
+	background-color: #b6a136 !important;
+}
+.type-ghost {
+	background-color: #735797 !important;
+}
+.type-dragon {
+	background-color: #6f35fc !important;
+}
+.type-dark {
+	background-color: #705746 !important;
+}
+.type-steel {
+	background-color: #b7b7ce !important;
+}
+.type-fairy {
+	background-color: #d685ad !important;
+}
+
+.top {
+	position: fixed;
+	top: 7;
+	left: 0;
+	z-index: 999;
+	width: 100%;
+	height: 23px;
+}
